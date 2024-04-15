@@ -16,3 +16,11 @@
       code --install-extension vmware.vscode-boot-dev-pack
 
       copy id_rsa on Host Windows(C:\Users\사용자\.ssh)
+
+      -- config --------------------------------------
+      Host labserver
+      HostName localhost
+      Port 22101
+      User user1
+      IdentityFile C:\Users\사용자\.ssh\id_rsa
+      ------------------------------------------------
