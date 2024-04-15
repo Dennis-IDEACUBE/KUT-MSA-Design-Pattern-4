@@ -13,5 +13,6 @@
       code --install-extension ms-azuretools.vscode-docker
       code --install-extension vscjava.vscode-java-pack
       code --install-extension vscjava.vscode-gradle
-      code --install-extension vscjava.vscode-maven
       code --install-extension vmware.vscode-boot-dev-pack
+
+      copy id_rsa on Host Windows(C:\Users\사용자\.ssh)
